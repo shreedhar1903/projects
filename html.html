@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+  <title>form</title>
+</head>
+<body>
+ 
+    <fieldset width="100px"  hight="100px"align="center">
+        <h1 id="h1s"> WEL COME TO FORM VALIDATION</h1>
+    <form action="" id="myForm" onsubmit="return validateForm()" >
+        <div clsss="formdesign" id="name">
+            
+          name:    <input type="text"name="fname" placeholder="enter name"><span class="formerror" > </span>
+        </div> <br>
+        <div clsss="formdesign" id="email">
+        
+            email:<input type="text"name="femail" placeholder="enter email"><span class="formerror" ></span>
+        </div><br>
+        <div clsss="formdesign" id="phone">
+            phone:<input type="phone"name="fphone" placeholder="enter number"><span class="formerror" ></span>
+        </div><br>
+        <div clsss="formdesign" id="pass">
+            password:<input type="password"name="fpass" placeholder="enter password"><span class="formerror" ></span>
+        </div><br>
+        <div clsss="formdesign" id="cpass">
+            cpassword:<input type="passwors"name="fcpass" placeholder="enter cpassword"><span class="formerror" ></span>
+        </div><br>
+        <input type="submit"class="but" value="submit">
+    </form>
+    </fieldset>
+    <script src="./f.js"></script>
+
+
+<!-- 
+    function clearerrors(){
+             error=document.getElementsByClassName('formerror');
+            for(let item of errors){
+                item.innerHTML="";
+         }
+         } -->
+</body> 
+<!-- clearerrors(); -->
+</html>
+
+
+
+ 
